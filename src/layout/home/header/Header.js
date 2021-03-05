@@ -84,9 +84,17 @@ class Header extends Component {
                 <span className="header__title--highlight">dreams</span> come
                 true.
               </h1>
-              <a href="#" className="header__cta header__cta--tertiary">
-                <text>learn more</text> <span>&darr;</span>
+              <a href="" className="header__cta header__cta--tertiary">
+                <text>learn more</text>{' '}
+                <span>
+                  <img src="img/darr.svg" alt="" />
+                </span>
               </a>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
 
             <img src="img/header_image.png" className="header__hero-image" />
