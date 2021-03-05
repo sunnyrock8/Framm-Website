@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <nav className="header__nav">
         <img
-          src="img/framm_logo.svg"
+          src="img/framm_logo.png"
           alt="Framm Logo"
           className="header__logo"
         />
