@@ -1,0 +1,35 @@
+@import './mixins.scss';
+
+.cta {
+  text-decoration: none;
+  border: none;
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &--primary {
+    display: inline-block;
+
+    background-color: #efd2cb;
+    padding: 1.2rem 2rem;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateY(-0.5rem);
+    }
+  }
+
+  &--secondary {
+    color: #353b3c;
+    font-weight: 500;
+    opacity: 0.75;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

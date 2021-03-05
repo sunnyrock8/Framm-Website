@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="184px" height="86px" viewBox="0 0 184 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Logo</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-81.000000, -33.000000)">
+            <g id="Logo" transform="translate(84.000000, 36.000000)">
+                <text id="framm" font-family="Sacramento-Regular, Sacramento" font-size="55" font-weight="normal" fill="#4C4E65">
+                    <tspan x="27.4448242" y="56">framm</tspan>
+                </text>
+                <path d="M178,39 L178,74 L145,74 L146.594,72.309 L175.556997,72.3097365 L175.556,41.592 L178,39 Z M33,0 L30.697,2.443 L2.30973653,2.44300302 L2.309,32.551 L0,35 L0,0 L33,0 Z" id="Combined-Shape" stroke="#EFD2CB" stroke-width="5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

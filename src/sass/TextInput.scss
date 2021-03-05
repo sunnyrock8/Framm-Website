@@ -1,0 +1,30 @@
+@import './mixins.scss';
+
+.TextInput {
+  box-sizing: border-box;
+
+  border: none;
+  background-color: #edf2f4;
+  padding: 1.7rem 0;
+  padding-left: 3.85rem;
+
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: 1.75rem;
+
+  transition: all 0.2s;
+
+  &:focus,
+  &:active {
+    outline: none;
+    border-bottom: 3px solid #4c4e65;
+    height: calc(100% - 3px);
+  }
+}
+
+.TextInput--validate {
+  &:valid {
+    border-bottom: 3px solid green;
+    height: calc(100% - 3px);
+  }
+}
