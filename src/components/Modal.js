@@ -13,6 +13,19 @@ class Modal extends Component {
       hidden: this.props.hidden,
     };
     this.handleBGClick = this.handleBGClick.bind(this);
+    this.handleEscapeKey = this.handleEscapeKey.bind(this);
+  }
+
+  componentDidMount() {
+    document.addEventListener('keydown', this.handleEscapeKey);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keydown', this.handleEscapeKey);
+  }
+
+  handleEscapeKey(e) {
+    if (e.key === 'Escape') this.props.hide();
   }
 
   handleBGClick(evt) {
