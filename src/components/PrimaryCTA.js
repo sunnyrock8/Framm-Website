@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import '../sass/CTA.scss';
 
 class PrimaryCTA extends Component {
